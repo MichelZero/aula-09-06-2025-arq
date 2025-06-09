@@ -9,7 +9,7 @@ import psutil # Biblioteca psutil é usada para obter informações sobre o sist
 # total: Total de memória RAM do sistema
 total_RAM = psutil.virtual_memory().total / (1024 ** 3)
 # 1024 ** 3 converte bytes para gigabytes
-# 1024 ** 3 = 1024 * 1024 * 1024
+# 1024 ** 3 -> 1024 * 1024 * 1024
 
 total_Disponivel = psutil.virtual_memory().available / (1024 ** 3)
 porcentagem_usado = psutil.virtual_memory().percent
