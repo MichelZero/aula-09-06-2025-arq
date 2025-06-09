@@ -8,6 +8,9 @@ GB = MB * 1024
 TB = GB * 1024
 PB = TB * 1024
 
+teste = 2 ** 10 # 2¹° -> 2^10 -> 2 ** 10
+print(teste)
+
 print(f"1 KB = {KB} byte")
 print(f"1 MB = {MB} byte")
 print(f"1 GB = {GB} byte")
